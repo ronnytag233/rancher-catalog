@@ -1,0 +1,7 @@
+name: TeamCityagent v2.0
+description: |
+  TeamCity Agent catalog
+version: v0.0.1
+category: CI
+maintainer: "varun"
+projectURL: https://hub.docker.com/r/jetbrains/teamcity-server/

@@ -1,1 +1,17 @@
+.catalog:
+  name: "TeamCity-Agent"
+  version: "v0.0.1"
+  description: "TeamCity Agent"
+  uuid: teamcity-0
+  minimum_rancher_version: v0.51.0
+  questions:
+    - variable: scale
+      description: "Number of TeamCity Agents"
+      label: "Number of TeamCity Agents"
+      required: true
+      default: "1"
+      type: "int"
 
+teamcity-agent:
+  scale: ${scale}
+  retain_ip: true

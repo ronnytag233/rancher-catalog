@@ -1,9 +1,0 @@
- teamcity_agent:
-    restart: unless-stopped
-    image: sashgorokhov/teamcity-agent
-    volumes:
-        - /var/run/docker.sock:/var/run/docker.sock
-    ports:
-        - 9090:9090
-    environment:
-        SERVER_URL: https://teamcity.steelcase.com/

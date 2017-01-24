@@ -1,3 +1,4 @@
-- [ ] Have you done x?
-- [ ] Have you done y?
-- [ ] Have you done z?
+- [ ] Commits have been verified.
+- [ ] Code syntax is verified.
+- [ ] fles modified is verified.
+- [ ] no conflicts is identified.
